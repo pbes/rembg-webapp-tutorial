@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  rembg:
+    image: rembg-webapp:latest
+    container_name: rembg
+    hostname: rembg
+    ports:
+      - "5100:5100"

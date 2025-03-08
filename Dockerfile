@@ -17,4 +17,4 @@ COPY . .
 
 EXPOSE 5100
 
-CMD ["python", "app.py"]
+CMD ["waitress-serve", "--host", "0.0.0.0", "--port", "5100", "app:app"]

@@ -5,6 +5,8 @@ Watch the [tutorial](https://youtu.be/cw34KMPSt4k) on YouTube
 ## Run it
 
 ```bash
+python3 -m venv virtualenv
+source virtualenv/bin/activate
 pip install -r requirements.txt
 python app.py
 ```
