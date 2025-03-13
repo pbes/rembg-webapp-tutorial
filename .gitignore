@@ -4,3 +4,4 @@ dist
 virtualenv
 *.tar
 *.pyc
+.env

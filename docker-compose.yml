@@ -3,6 +3,9 @@ services:
   rembg:
     image: rembg-webapp:latest
     container_name: rembg
+    environment:
+      - APP_USER=user
+      - APP_PASSWORD=password
     hostname: rembg
     ports:
       - "5100:5100"
